@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+head{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: brown;
+}
+
+#para{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+
+.btn{
+    font-size: 6px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+h1{
+    color: red;
+    background-color: black;
+    font-weight: 300;
+}
+
+h2{
+    color: gold;
+    background-color: aqua;
+}
+#box{
+    height: 200px;
+    width:200px;
+    background-color:crimson;
+    margin-left: 190px;
+    margin-top: 100px;
+    position: absolute;
+    left: 20%;
+    transform: translate(-50%,-50%);
+}
